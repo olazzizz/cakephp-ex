@@ -9,6 +9,10 @@ fi
 
 [[ -d ./tmp ]] && chmod -R go+rw ./tmp
 
+echo "Customized part starts HERE!!!"
+
 mv /opt/app-root/src/src/Template/Layout/default.ctp /opt/app-root/src/src/Template/Layout/default.ctp.old
 mv /opt/app-root/src/src/Template/Layout/default.ctp.onofrio /opt/app-root/src/src/Template/Layout/default.ctp
+
+echo "Customized part finished HERE!!!"
 
