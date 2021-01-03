@@ -9,3 +9,6 @@ fi
 
 [[ -d ./tmp ]] && chmod -R go+rw ./tmp
 
+mv /opt/app-root/src/src/Template/Layout/default.ctp /opt/app-root/src/src/Template/Layout/default.ctp.old
+mv /opt/app-root/src/src/Template/Layout/default.ctp.onofrio /opt/app-root/src/src/Template/Layout/default.ctp
+
